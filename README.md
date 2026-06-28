@@ -38,6 +38,7 @@ builders exploring HACD as an identity container.*
 | `x_announcement.md` | X announcement set (official, educational, founder, thread, 3 hooks) |
 | `review_checklist.md` | Pre-submission review checklist |
 | `validate.py` | Compact spec validator (mirrors the official `validate_launch_spec.py`) |
+| `client/` | **Reference client** — register → attest → verify (7/7 tests pass, demo runs) |
 
 ## Supply math
 
@@ -67,8 +68,10 @@ website/contact) are expected for a draft and are resolved before submission.
 ## Utility
 
 **At launch (honest):** register an agent against a PoW-formed identity; verify any
-identity's PoW formation on-chain; issue and receive attestation credits; open-source
-reference client demonstrating register → attest → verify.
+identity's PoW formation on-chain; issue and receive attestation credits. The
+open-source reference client in `client/` implements the full loop — **7/7 tests pass**
+and the demo runs end-to-end (register two identities, attest, verify the reputation
+signal). This is demonstrated utility, not a promise.
 
 **Planned (roadmap, not launch):** GrowStreams/Vara streaming integration (PoW
 identity as reputation collateral for streaming payments); Project NANDA / Internet

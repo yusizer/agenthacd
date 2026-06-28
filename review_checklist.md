@@ -37,7 +37,7 @@
 - [ ] Founder contact, project website, X handle filled in (`launch_spec.json` `project` — currently `Needs issuer confirmation`).
 - [ ] Exact target launch date confirmed (currently `Needs issuer confirmation`).
 - [ ] Final `max_hacd_per_participant` cap confirmed (drafted at 8).
-- [ ] Open-source reference client (register → attest → verify) implemented and working — Utility-at-launch must be demonstrable, not claimed.
+- [x] Open-source reference client (register → attest → verify) implemented and working — `client/` (7/7 tests pass, demo runs). Utility-at-launch is demonstrated, not merely claimed.
 - [ ] `launch_spec.json` passes `validate_launch_spec.py --strict` with no ERRORs (run before submission; paste validator output `OK: launch spec passed basic validation`).
 - [ ] `issuer_confirmed` and `hacd_labs_reviewed` flipped to `true` only after those reviews actually happen (left `false` for the draft — expected).
 - [ ] HACD Labs reviews final parameters before Launchpad publication.
