@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "project": {
+    "name": "AgentHACD",
+    "ticker": "AGH",
+    "category": "AI agent",
+    "description": "PoW-anchored AI agent identity — a HACD Stack Asset that gives each AI agent a credible, sybil-resistant on-chain identity formed through real Proof-of-Work cost, with durable formation history and on-chain attestation credits.",
+    "website": "",
+    "x": "",
+    "contact": "Needs issuer confirmation — founder handle/email"
+  },
+  "asset": {
+    "type": "HYBRID",
+    "total_supply": 16777216,
+    "decimals": 0,
+    "unit_name": "credit",
+    "utility_summary": "Each HACD lot mints 1 non-fungible agent identity (the agent's PoW-anchored on-chain identity) plus 65,536 fungible attestation credits used to score and attest to agent behavior. Identities are formed through PoW + HAC stack cost, making agent registration economically non-trivial and sybil-resistant."
+  },
+  "stack": {
+    "total_hacd_lots": 256,
+    "hacd_per_lot": 1,
+    "units_per_hacd_lot": 65536,
+    "stack_cost_hac_per_hacd": 50,
+    "network_fee_required": true,
+    "designated_address_required": false,
+    "designated_address": "",
+    "first_phase_hacd_lots": 64,
+    "public_phase_hacd_lots": 192,
+    "removal_effect": "burn"
+  },
+  "launch": {
+    "target_date_utc": "Needs issuer confirmation — intended Launchpad date on/after 2026-07-01",
+    "launchpad_url": "https://hacd.it/launchpad",
+    "phase_model": "allowlist",
+    "min_hacd_per_participant": 1,
+    "max_hacd_per_participant": 8,
+    "status": "draft"
+  },
+  "copy": {
+    "headline": "AgentHACD — Proof-of-Work identity for AI agents",
+    "subheadline": "Each agent identity is formed through real PoW cost, not printed from nothing. Sybil-resistant agent identity on HACD.",
+    "short_description": "AgentHACD gives AI agents credible on-chain identity by forming it on HACD's PoW container. One HACD lot = one agent identity NFT + attestation credits. Formation costs real HAC, so creating fake agents is economically non-trivial.",
+    "risk_disclosure": "AgentHACD is a HACD Stack Asset, not an investment product. No return, price floor, or liquidity is guaranteed. Stack cost is a formation cost reference, not a price guarantee. Agent identity does not guarantee agent quality or correctness — it attests to formation provenance and sybil-resistance only. Not financial advice. Final Launchpad parameters must be verified by HACD Labs before going live."
+  },
+  "review": {
+    "issuer_confirmed": false,
+    "hacd_labs_reviewed": false,
+    "legal_review_required": true,
+    "notes": [
+      "Draft package generated via HACD Incubator AI Issuance Skill.",
+      "Founder/contact and exact target launch date need issuer confirmation.",
+      "Supply math: 256 lots x 65,536 units = 16,777,216 total attestation credits; 64 first-phase + 192 public-phase = 256 lots; formation cost = 256 x 50 HAC = 12,800 HAC.",
+      "Roadmap items (GrowStreams streaming integration, NANDA interop) are planned, not launch utility."
+    ]
+  }
+}
