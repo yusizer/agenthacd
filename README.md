@@ -62,8 +62,8 @@ python validate.py launch_spec.json --strict
 # Formation cost reference: 12,800 HAC + network fees
 ```
 
-Draft warnings (`issuer_confirmed` / `hacd_labs_reviewed` = false, empty
-website/contact) are expected for a draft and are resolved before submission.
+Draft warnings (`issuer_confirmed` / `hacd_labs_reviewed` = false) are expected
+for a draft and are resolved after HACD Labs review.
 
 ## Utility
 

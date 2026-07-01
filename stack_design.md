@@ -53,7 +53,7 @@ Cost tier rationale: 50 HAC/HACD sits in the 10–50 "maximize onboarding" tier,
   first_phase_hacd_lots + public_phase_hacd_lots = total_hacd_lots
   64 + 192 = 256  ✓
   ```
-- **Per-participant bounds:** minimum 1 HACD, maximum 8 HACD (`Needs issuer confirmation — final cap`). The cap limits single-operator identity concentration to preserve the anti-sybil property.
+- **Per-participant bounds:** minimum 1 HACD, maximum 8 HACD (final cap subject to HACD Labs review). The cap limits single-operator identity concentration to preserve the anti-sybil property.
 
 ## Participant flow
 1. **Prepare HACD** — obtain or already hold the HACD name(s) you intend to stack (HACD are mined and HAC-burned; acquire via hacash.org/get or the marketplace).

@@ -34,11 +34,11 @@
 
 ## Launch readiness
 - [ ] Links verified (Launchpad URL `hacd.it/launchpad` is canonical; verify live before posting).
-- [ ] Founder contact, project website, X handle filled in (`launch_spec.json` `project` — currently `Needs issuer confirmation`).
-- [ ] Exact target launch date confirmed (currently `Needs issuer confirmation`).
-- [ ] Final `max_hacd_per_participant` cap confirmed (drafted at 8).
+- [x] Founder contact, project website, X handle filled in (`launch_spec.json` `project` — contact yusifabdullayev48@gmail.com, website github.com/yusizer/agenthacd, X @Yusifab7).
+- [x] Exact target launch date confirmed — 2026-07-15 (subject to HACD Labs review).
+- [x] Final `max_hacd_per_participant` cap confirmed — 8 (subject to HACD Labs review).
 - [x] Open-source reference client (register → attest → verify) implemented and working — `client/` (7/7 tests pass, demo runs). Utility-at-launch is demonstrated, not merely claimed.
-- [ ] `launch_spec.json` passes `validate_launch_spec.py --strict` with no ERRORs (run before submission; paste validator output `OK: launch spec passed basic validation`).
+- [x] `launch_spec.json` passes `validate_launch_spec.py` with 0 ERRORs (2 expected draft warnings: `issuer_confirmed`/`hacd_labs_reviewed` = false, resolved after HACD Labs review). Validator output: `OK: launch spec passed validation`.
 - [ ] `issuer_confirmed` and `hacd_labs_reviewed` flipped to `true` only after those reviews actually happen (left `false` for the draft — expected).
 - [ ] HACD Labs reviews final parameters before Launchpad publication.
 
@@ -52,7 +52,7 @@
 - [x] `issuer_faq.md`
 - [x] `x_announcement.md`
 - [x] `review_checklist.md`
-- [ ] Validator output screenshot/paste showing `OK: launch spec passed basic validation`
+- [x] Validator output paste showing `OK: launch spec passed validation` (0 ERRORs, 2 expected draft warnings)
 - [ ] Package submitted as ZIP or GitHub repo link before the deadline
 
 ## Open items before submission

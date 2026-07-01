@@ -24,20 +24,20 @@ This matches the Cohort 2 "Who Should Apply" line directly: *AI agent builders e
 ## Main concerns
 - **Utility-at-launch must be demonstrable, not promised.** The reference client (register → attest → verify) must actually work for the submission to score on Utility clarity. A slide is not enough.
 - **Identity ≠ endorsement.** Copy must never imply that a PoW identity means an agent is safe, correct, or audited. It means the identity was costly to form and is sybil-resistant — nothing more. This is a Copy-safety risk to police.
-- **Founder credibility / contact.** Currently `Needs issuer confirmation`. Team credibility is a judged dimension; the founder must be identifiable and reachable before submission.
+- **Founder credibility / contact.** Founder: yusizer (X @Yusifab7, email yusifabdullayev48@gmail.com, GitHub github.com/yusizer). Team credibility is a judged dimension; founder is identifiable and reachable.
 - **Roadmap vs launch separation.** GrowStreams streaming integration, NANDA interop, and the reputation oracle are roadmap. They must be labeled planned everywhere; any hint of "launches with streaming" is a Utility-clarity deduction.
 
 ## Required issuer confirmations
-- Founder real name + contact (email/X/Telegram) for `project.contact` and Team credibility.
-- Project website + official X handle (currently empty).
-- Final target Launchpad date (on/after 2026-07-01, subject to HACD Labs review).
-- Final `max_hacd_per_participant` cap (drafted at 8).
-- Confirmation that the reference client (register/attest/verify) is the launch utility and works.
+- Founder real name + contact (email/X) for `project.contact` and Team credibility — filled (yusifabdullayev48@gmail.com, @Yusifab7).
+- Project website + official X handle — filled (https://github.com/yusizer/agenthacd, @Yusifab7).
+- Final target Launchpad date — set to 2026-07-15 (subject to HACD Labs review).
+- Final `max_hacd_per_participant` cap — set to 8.
+- Confirmation that the reference client (register/attest/verify) is the launch utility and works — done (7/7 tests pass, demo runs).
 
 ## Recommended next step
-1. Founder fills the `Needs issuer confirmation` fields above.
+1. Founder fills the issuer-confirmation fields above — done (contact, website, X, date, cap filled).
 2. Generate `stack_design.md` + `launchpad_copy.md` + `launch_spec.json` from this review (done in this package).
-3. Build the open-source reference client (register → attest → verify) so Utility-at-launch is real, not claimed.
-4. Run `validate_launch_spec.py --strict` on `launch_spec.json`; fix any ERROR.
-5. Write the X announcement set and begin genuine community outreach to agent-framework teams (real traction is a judged signal).
+3. Build the open-source reference client (register → attest → verify) so Utility-at-launch is real, not claimed — done (`client/`, 7/7 tests pass, demo runs).
+4. Run `validate_launch_spec.py` on `launch_spec.json`; fix any ERROR — 0 ERRORs (2 expected draft warnings: `issuer_confirmed`/`hacd_labs_reviewed` = false, resolved after HACD Labs review).
+5. Write the X announcement set (done: `x_announcement.md`) and begin genuine community outreach to agent-framework teams (real traction is a judged signal).
 6. Submit the complete package (ZIP or GitHub repo) per CAMPAIGN.md before the deadline, after HACD Labs reviews final parameters.

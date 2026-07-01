@@ -1,7 +1,7 @@
 # Issuer Intake Form — AgentHACD
 
 > Expanded from the project brief via the HACD Incubator AI Issuance Skill.
-> Items marked `Needs issuer confirmation` require the founder before submission.
+> All issuer fields (founder contact, website, X, launch date, cap) are filled.
 
 ## Project basics
 
@@ -9,8 +9,8 @@
 - **Ticker / asset symbol:** AGH
 - **Category:** AI agent
 - **One-sentence description:** PoW-anchored AI agent identity — a HACD Stack Asset that gives each AI agent a credible, sybil-resistant on-chain identity formed through real Proof-of-Work cost.
-- **Founder / team status:** Solo founder (yusizer). `Needs issuer confirmation — founder real name, contact, team status.`
-- **Official links:** GitHub portfolio: github.com/yusizer. `Needs issuer confirmation — project website, X handle, Telegram.`
+- **Founder / team status:** Solo founder (yusizer). Contact: yusifabdullayev48@gmail.com. X: @Yusifab7.
+- **Official links:** GitHub: github.com/yusizer; project repo/website: https://github.com/yusizer/agenthacd; X: @Yusifab7.
 - **Target users:** AI agent developers, agent framework teams (CrewAI, LangGraph, AutoGen, MCP), agent marketplaces, and protocols that need to attribute actions to a verifiable, non-sybil agent identity.
 - **Why HACD is needed:** AI agents need credible identity. Free-to-create identities are trivially sybiled — an attacker can spin up thousands of fake agents to manipulate attestations, reputation, airdrops, or agent-to-agent trust. HACD's PoW formation cost (mining + HAC-burning bid + stack cost) makes creating an agent identity economically non-trivial, so agent registration is scarce, accountable, and carries durable on-chain formation history. A plain ERC-20/ERC-721 on a low-cost chain cannot provide this; HACD can.
 
@@ -22,7 +22,7 @@
 - **Units per HACD lot:** 65,536 attestation credits
 - **Stack cost per HACD in HAC:** 50 HAC
 - **Minimum HACD required per participant:** 1
-- **Maximum HACD per participant:** 8 (caps single-operator identity concentration; `Needs issuer confirmation — final cap`)
+- **Maximum HACD per participant:** 8 (caps single-operator identity concentration; final cap subject to HACD Labs review)
 - **Designated address requirement:** None (allowlist phase uses Launchpad allowlist, not a designated mint address)
 - **Launch phases:** Two — first phase 64 lots (allowlist for genesis agents / partner frameworks), public phase 192 lots.
 - **All lots equal or tiered:** Equal (every lot forms 1 identity NFT + 65,536 credits under identical rules). Genesis lots differ only by phase, not by formation terms.
@@ -39,7 +39,7 @@
 
 ## Launch basics
 
-- **Intended Launchpad date:** `Needs issuer confirmation — on/after 2026-07-01, subject to HACD Labs review.`
+- **Intended Launchpad date:** 2026-07-15 (subject to HACD Labs review).
 - **Claim / mint / stack method:** Participants stack their HACD on the Launchpad under the AgentHACD issuance rules; the protocol forms 1 agent identity NFT + 65,536 credits per stacked HACD.
 - **Public communication angle:** "AI agents need credible identity, not free identities. AgentHACD forms agent identity through PoW on HACD — the first sybil-resistant, PoW-anchored identity primitive for AI agents."
 - **Risk disclosure:** See `launch_spec.json` `risk_disclosure` and `launchpad_copy.md`. Not an investment product; no return/floor/liquidity guaranteed; identity ≠ agent quality.

@@ -53,7 +53,7 @@ A PoW identity means an identity was costly to form and is sybil-resistant. It d
 - **Launchpad:** hacd.it/launchpad
 - **Phase model:** allowlist first, then public.
 - **Stack cost:** 50 HAC per HACD + network fee.
-- **Target date:** `[issuer confirmation — on/after 2026-07-01, subject to HACD Labs review]`
+- **Target date:** 2026-07-15 (subject to HACD Labs review before going live)
 - **Final parameters** (supply, cost, phases, caps) must be verified by HACD Labs before the listing goes live.
 
 ## FAQ

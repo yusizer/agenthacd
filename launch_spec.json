@@ -47,10 +47,11 @@
     "hacd_labs_reviewed": false,
     "legal_review_required": true,
     "notes": [
-      "Draft package generated via HACD Incubator AI Issuance Skill.",
-      "Founder/contact and exact target launch date need issuer confirmation.",
+      "Package generated via HACD Incubator AI Issuance Skill.",
+      "Founder/contact (yusifabdullayev48@gmail.com), website (https://github.com/yusizer/agenthacd), X (@Yusifab7), and target date (2026-07-15) are filled by the issuer.",
       "Supply math: 256 lots x 65,536 units = 16,777,216 total attestation credits; 64 first-phase + 192 public-phase = 256 lots; formation cost = 256 x 50 HAC = 12,800 HAC.",
-      "Roadmap items (GrowStreams streaming integration, NANDA interop) are planned, not launch utility."
+      "Roadmap items (GrowStreams streaming integration, NANDA interop) are planned, not launch utility.",
+      "issuer_confirmed/hacd_labs_reviewed remain false until HACD Labs review; reference client (register/attest/verify) passes 7/7 tests."
     ]
   }
 }

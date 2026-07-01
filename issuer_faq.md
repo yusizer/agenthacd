@@ -32,10 +32,10 @@ Yes. Formation is recorded on Hacash mainnet. A marketplace can query explorer.h
 **Planned (roadmap, no date):** GrowStreams/Vara streaming integration (PoW identity as reputation collateral for streaming payments), Project NANDA / Internet of AI Agents interop, and a reputation oracle for agent marketplaces.
 
 ## Is there a per-participant cap?
-Draft cap: minimum 1 HACD, maximum 8 HACD per participant. The cap limits single-operator identity concentration to preserve the anti-sybil property. `[Needs issuer confirmation — final cap]`
+Cap: minimum 1 HACD, maximum 8 HACD per participant. The cap limits single-operator identity concentration to preserve the anti-sybil property. (Final cap subject to HACD Labs review before launch.)
 
 ## When does it launch?
-`[Needs issuer confirmation — target on/after 2026-07-01, subject to HACD Labs review.]` Final Launchpad parameters (supply, cost, phases, caps) must be verified by HACD Labs before the listing goes live.
+Target date: 2026-07-15 (subject to HACD Labs review). Final Launchpad parameters (supply, cost, phases, caps) must be verified by HACD Labs before the listing goes live.
 
 ## Is this financial advice?
 No. Nothing in this package is financial advice. HAC and HACD are volatile; verify live prices and network fees before transacting.

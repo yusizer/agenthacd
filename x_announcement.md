@@ -91,7 +91,7 @@ Most agent identities are deployed for free. AgentHACD identities are *formed* �
 ---
 
 ## Posting notes for the issuer
-- Post from the project's official X once created (`Needs issuer confirmation — X handle`).
+- Post from the project's official X (@Yusifab7).
 - Tag @hacdlabs once per thread; do not spam tags.
 - Attach a simple diagram (identity = 1 HACD + 50 HAC + PoW → attestations) where possible — visuals aid traction.
 - Engage genuinely with agent-framework teams and replies. Real traction is a judged signal; bought/botted engagement is disqualifying and will not be used.
